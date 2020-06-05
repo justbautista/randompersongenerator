@@ -90,15 +90,15 @@ fetch('https://randomuser.me/api')
         document.getElementById("email").innerHTML = data.results[0].email;
         document.getElementById("phone").innerHTML = phoneNumber;
         document.getElementById("cell").innerHTML = cellNumber;
-
-        const button = document.getElementById("button");
-
-        button.addEventListener('click', buttonClick);
-
-        function buttonClick(event){    //refreshes window after clicking button
-            event.preventDefault();
-            window.location.reload();
-        }
     });
+
+const button = document.getElementById("button");
+
+button.addEventListener('click', buttonClick);
+
+function buttonClick(event) {    //refreshes window after clicking button
+    event.preventDefault();
+    window.location.reload();
+}
 
 
