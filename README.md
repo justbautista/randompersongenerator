@@ -1,1 +1,2 @@
-# randompersongenerator
+# Random User Generator
+A project from All Star Code Summer Intensive using the Random User API.Click Generate to generate a random fake person with fake information (Name, Username, Cell, Phone, Email, ID, Birthday, Location). Recently, went through a design change for a much cleaner look. 
